@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "208736017100",
+    "project_id": "final-kotlin",
+    "storage_bucket": "final-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208736017100:android:d2d033c407c47f705b8069",
+        "android_client_info": {
+          "package_name": "com.example.resortgulliet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208736017100-p26s0ci6flt0cpefaujc7cqb35fh0jha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resortgulliet",
+            "certificate_hash": "dd6ce2ac3d31a9fc32d75780570773168f10ccec"
+          }
+        },
+        {
+          "client_id": "208736017100-8p6tr8db511n0brd77uh2e24cia296ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT-TK-B3luRvoHOFOje05_TtnnrtBTHdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208736017100-8p6tr8db511n0brd77uh2e24cia296ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

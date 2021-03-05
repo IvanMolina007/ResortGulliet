@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".perfil.SubirNuevoDestinoActivity">
+
+    <EditText
+        android:id="@+id/editTextNombreDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Nombre del destino"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPaisDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Pais del destino"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNombreDestino"
+        app:layout_constraintStart_toStartOf="@+id/editTextNombreDestino"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreDestino" />
+
+    <EditText
+        android:id="@+id/editTextURLDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="URL de internet para imagen"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPaisDestino"
+        app:layout_constraintStart_toStartOf="@+id/editTextPaisDestino"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPaisDestino" />
+
+    <EditText
+        android:id="@+id/editTextPrecioDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Precio que valdra el viaje"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/editTextURLDestino"
+        app:layout_constraintStart_toStartOf="@+id/editTextURLDestino"
+        app:layout_constraintTop_toBottomOf="@+id/editTextURLDestino" />
+
+    <EditText
+        android:id="@+id/editTextGamaDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Gama del destino (1 Alto, 2 Medio, 3 Bajo)"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPrecioDestino"
+        app:layout_constraintStart_toStartOf="@+id/editTextPrecioDestino"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPrecioDestino" />
+
+    <Button
+        android:id="@+id/buttonSubirDestino"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="SUBIR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

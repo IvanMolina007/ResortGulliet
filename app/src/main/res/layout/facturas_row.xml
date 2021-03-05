@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <TextView
+        android:id="@+id/textViewPagoIdUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="IdUsuario"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPagoDestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Pais"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewPagoIdUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPagoIdUsuario" />
+
+    <TextView
+        android:id="@+id/textViewPagoPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Precio"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewPagoDestino"
+        app:layout_constraintStart_toEndOf="@+id/textViewPagoDestino" />
+</androidx.constraintlayout.widget.ConstraintLayout>
